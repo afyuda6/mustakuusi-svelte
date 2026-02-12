@@ -78,7 +78,6 @@
             >{game.title}</a>
         </h3>
         <time class={styles.date} dateTime={game.date}>Dirilis: {game.date}</time>
-        <p class={styles.description}>{game.description}</p>
 
         <ul class={styles.categories}>
             {#each game.categories as category, id (id)}
