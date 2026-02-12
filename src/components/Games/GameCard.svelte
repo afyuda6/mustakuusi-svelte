@@ -93,7 +93,7 @@
                         class={styles.badge}
                 /></a>
             {:else}
-                <h2>{countdown || "Segera hadir"}</h2>
+                <h2 class={styles.badge}>{countdown || "Segera hadir"}</h2>
             {/if}
             {#if game.playLink}
                 <a href={game.playLink} target="_blank" rel="noopener"><img
