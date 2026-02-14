@@ -3,7 +3,6 @@
     import Navbar from "../../components/Navbar/Navbar.svelte";
     import Hero from "../../components/Hero/Hero.svelte";
     import About from "../../components/About/About.svelte";
-    import Games from "../../components/Games/Games.svelte";
     import Characters from "../../components/Characters/Characters.svelte";
     import Screenshots from "../../components/Screenshots/Screenshots.svelte";
     import Contact from "../../components/Contact/Contact.svelte";
@@ -66,9 +65,6 @@
     <Screenshots
             screenshots={game.screenshots}
             title={game.title}/>
-    <Games
-            gameSection="Gim Lain"
-            games={games}/>
     <Contact/>
 {:else}
     <div></div>

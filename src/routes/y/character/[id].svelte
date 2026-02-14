@@ -3,7 +3,6 @@
     import Navbar from "../../../components/Navbar/Navbar.svelte";
     import Hero from "../../../components/Hero/Hero.svelte";
     import Games from "../../../components/Games/Games.svelte";
-    import Characters from "../../../components/Characters/Characters.svelte";
     import Contact from "../../../components/Contact/Contact.svelte";
     import characters from "../../../../../public/data/characters.json";
     import games from "../../../../../public/data/games.json";
@@ -55,7 +54,6 @@
             playLink={undefined}
             imageUrl={character.imageSrc}/>
     <Games gameSection={`${character.name} di Gim`} games={filteredGames}/>
-    <Characters characterSection="Karakter Lain" characters={characters}/>
     <Contact/>
 {:else}
     <div></div>
