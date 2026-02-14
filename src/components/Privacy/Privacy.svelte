@@ -27,7 +27,7 @@
             Privacy Policy {id ? `for ${title}` : ""}
         </h1>
 
-        <p><strong>Last updated:</strong> February 3, 2026</p>
+        <p><strong>Last updated:</strong> February 03, 2026</p>
 
         <p>
             <em>{id ? title : ""}</em> is a mobile game developed by <strong>mustakuusi</strong>. Your
@@ -156,7 +156,7 @@
     {:else}
         <h1>Kebijakan Privasi {id ? `untuk ${title}` : ''}</h1>
 
-        <p><strong>Pembaruan terakhir:</strong> 3 Februari 2026</p>
+        <p><strong>Pembaruan terakhir:</strong> 03 Februari 2026</p>
 
         <p>
             <em>{id ? title : ''}</em> adalah gim seluler yang dikembangkan
